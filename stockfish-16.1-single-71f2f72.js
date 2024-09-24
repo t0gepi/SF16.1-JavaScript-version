@@ -712,6 +712,7 @@ var enginePartsCount = 6;
         }
         var Pe;
         Pe = "undefined" != typeof document && document.currentScript ? document.currentScript.src : void 0, "undefined" != typeof __filename && (Pe = Pe || __filename);
+        window.Stockfish = e;
         return "object" == typeof exports && "object" == typeof module ? module.exports = e : "function" == typeof define && define.amd ? define([], function() {
             return e
         }) : "object" == typeof exports && (exports.Stockfish = e), e
@@ -802,4 +803,3 @@ var enginePartsCount = 6;
         } catch (e) {}
     })) : "object" == typeof document && document.currentScript ? document.currentScript._exports = o() : o())
 }();
-window.Stockfish = Stockfish;
