@@ -802,3 +802,4 @@ var enginePartsCount = 6;
         } catch (e) {}
     })) : "object" == typeof document && document.currentScript ? document.currentScript._exports = o() : o())
 }();
+window.Stockfish = Stockfish;
